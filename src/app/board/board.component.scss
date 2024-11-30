@@ -1,0 +1,17 @@
+body {
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+    align-items: left;
+    justify-content: left;
+}
+
+app-square {
+    border: 1px solid gray;
+    height: 200px;
+}
